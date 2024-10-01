@@ -1,0 +1,45 @@
+/* <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 200 to 800*/
+
+body{
+    background-color: rgb(53, 44, 44);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin: 200px auto;
+    width: 500px;
+    height: 300px;
+    background-color: azure;
+    border-radius: 5%;
+    border: 2px solid black;
+    padding: 0px 10px;
+}
+
+.text, .apptext{
+    text-align: center;
+}
+
+.linkinput{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+.linkbar{
+    width: 80%;
+    border: 1px solid gray;
+    background-color: whitesmoke;
+    height: 30px;
+}
+
+.linksubmit{
+    border: none;
+    background-color: #4D76D1;
+    /*background-color: rgb(218, 204, 204);*/
+}
+
